@@ -1,12 +1,4 @@
-import { useState } from "react"
-
-const Hamburger = () => {
-
-  const [isHamburger, setIsHamburger] = useState(true)
-
-  const toggleNav = () => {
-    setIsHamburger((currentVal) => !currentVal)
-  }
+const Hamburger = ({ isHamburger, toggleNav}) => {
 
   return (
     <button className="h-[58px] w-[68px] flex flex-col items-center justify-center bg-supernova"
@@ -19,3 +11,4 @@ const Hamburger = () => {
 }
 
 export default Hamburger
+
