@@ -67,6 +67,11 @@
     @apply content-[''] w-10 h-10 block bg-checked
   }
 
+  button[type="submit"],
+  input[type="submit"] {
+    @apply bg-supernova font-handwriting uppercase text-3xl text-black w-full rounded-full py-5
+  }
+
   svg {
     @apply fill-current
   }

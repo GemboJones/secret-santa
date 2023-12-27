@@ -8,14 +8,20 @@ const AcceptPage = () => {
   return (
     <>
       <MetaTags title="Accept" description="Accept page" />
-      <h3 className="m-0 mb-10 p-0 text-center font-handwriting text-3xl uppercase leading-none text-white">
+      <h3 className="m-0 mb-2 p-0 text-center font-handwriting text-3xl uppercase leading-none text-white">
         Awesome!
       </h3>
       <HeaderWithRulers className="text-white" heading="Sign up" />
-      <Form className='max-w-[660px] w-full mx-auto'>
-        <ShowHidePassword label="password" name="password" />
-        <Upload />
-        <button type='submit'>Submit</button>
+      <Form className="relative mx-auto w-full max-w-[660px]">
+        <div className="field">
+          <ShowHidePassword label="password" name="password" />
+        </div>
+        <div className="field">
+          <Upload />
+        </div>
+        <div className="field">
+          <button type="submit">Submit</button>
+        </div>
       </Form>
     </>
   )
