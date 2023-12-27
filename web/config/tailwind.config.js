@@ -30,6 +30,7 @@ module.exports = {
         pastelMagenta: '#ff9dbf' /* pink */,
         padua: '#b1e3cc' /* lightest green - placeholder color */,
         vistaBlue: '#94d1b4' /* light green - placeholder color */,
+        bombay: '#aeaeae' /* light grey */,
       },
       height: {
         18: "72px"
